@@ -1,0 +1,29 @@
+{
+  "name": "article_admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fast-crud/fast-crud": "^1.19.3",
+    "@fast-crud/fast-extends": "^1.19.3",
+    "@fast-crud/ui-element": "^1.19.3",
+    "@fast-crud/ui-interface": "^1.19.3",
+    "dayjs": "^1.11.10",
+    "element-plus": "^2.4.4",
+    "lodash-es": "^4.17.21",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
